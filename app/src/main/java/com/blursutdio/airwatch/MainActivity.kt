@@ -55,7 +55,7 @@ class MainActivity : WearableActivity() {
                         val jsonResponse = JSONObject(data)
                         message.text = jsonResponse.getString("message")
                         value.text = jsonResponse.getString("aqi")
-//                        location.text = jsonResponse.getString("location")
+                        location.text = jsonResponse.getString("location")
                     }
                 }
             }.join()
