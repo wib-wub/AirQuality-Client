@@ -34,7 +34,7 @@ dependencies {
     compileOnly 'com.google.android.wearable:wearable:2.4.0'
     implementation 'com.github.kittinunf.fuel:fuel:2.2.1'
     implementation 'com.github.kittinunf.fuel:fuel-android:2.2.1'
-    implementation 'com.github.kittinunf.fuel:fuel-json:2.2.1'
+    implementation 'com.github.kittinunf.fuel:fuel-json:2.3.1'
     implementation 'com.google.android.gms:play-services-location:17.0.0'
 
 }
